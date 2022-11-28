@@ -1,0 +1,46 @@
+
+
+.logo {
+    width:100% !important;
+    height : 100% !important;
+    max-width: 180px !important;  //any size
+    max-height: 180px !important; //any size
+    position: absolute;
+    margin: 6rem;
+    border: 16px solid rgb(52, 121, 186);
+}
+
+ion-content {
+  --background: #ffffff
+ /* --background: linear-gradient(180deg, rgba(0,170,255,1) 0%, rgba(0,163,255,1) 44%, rgba(181,228,255,1) 77%);*/
+}
+
+.buttons {
+  margin-top: 20em;;
+}
+
+ion-button {
+  --background: rgb(0, 126, 211);
+  --background-hover: #9cbee0;
+  --background-activated: #88d0f4;
+  --background-focused: #88b9f4;
+
+  --color: #ffff;
+
+
+  --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+
+  --ripple-color: rgb(39, 20, 255);
+
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+}
+
+ion-toolbar {
+  --background: rgb(0, 126, 211);
+  --color: #ffff;
+}
+
+
+
+

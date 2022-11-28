@@ -1,0 +1,8 @@
+{
+  "name": "omni-denuncias",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,70 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+b {
+  width: 100%;
+}
+
+.circle {
+  position: center;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-left: 6em;
+}
+
+.buttons {
+  margin-left: 4em;
+}
+
+ion-card {
+  --background: rgb(0, 126, 211);
+  --color: #ffffff;
+}
+
+ion-card-title {
+  --color: #ffffff;
+}
+
+ion-card-subtitle {
+  --color: #ffffff;
+}
+
+/* iOS places the subtitle above the title */
+ion-card-header.ios {
+  display: flex;
+  flex-flow: column-reverse;
+}
+
+ion-toolbar {
+  --background: rgb(0, 126, 211);
+  --color: #ffff;
+}
+
+
+ion-button {
+  --background: rgb(0, 126, 211);
+  --background-hover: #9cbee0;
+  --background-activated: #88d0f4;
+  --background-focused: #88b9f4;
+
+  --color: #ffff;
+
+
+  --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+
+  --ripple-color: rgb(39, 20, 255);
+
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+}
