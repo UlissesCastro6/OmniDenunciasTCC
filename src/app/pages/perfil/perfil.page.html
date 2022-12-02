@@ -70,5 +70,19 @@
       </ion-col>
     </ion-row>
   </ion-grid>
+  <div *ngFor="let cidadao of cidadaos">
+    <p >
+      {{cidadao.idCidadao}}
+    </p>
+    <p>
+      {{cidadao.nome}}
+    </p>
+    <p>
+    {{cidadao.sobrenome}}
+    </p>
+  </div>
+
 </ion-content>
+
+
 

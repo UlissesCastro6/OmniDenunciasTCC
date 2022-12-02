@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./perfil.page.scss'],
 })
 export class PerfilPage implements OnInit {
+  public cidadaos: any;
 
-  constructor() { }
+  constructor(private http: HttpClient) {}
 
   ngOnInit() {
+    this.getCidadaos();
   }
 
+  public getCidadaos(): void {
+    this.http.get('http://localhost:5000/Cidadaos').subscribe(
+      (response) => (this.cidadaos = response),
+      (error) => console.log(error)
+    );
+  }
 }
